@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BelleCroissantAPI.Data;
 using BelleCroissantAPI.Model;
+using System.Linq;
 
 namespace BelleCroissantAPI.Controllers
 {
@@ -21,44 +22,30 @@ namespace BelleCroissantAPI.Controllers
         [HttpGet]
         public IActionResult GetCustomers()
         {
+            // ดึงข้อมูลทั้งหมดโดยตรงโดยไม่ใช้ Mapping
             var customers = _context.Customers.ToList();
-            return Ok(customers); // คืนค่าข้อมูลทั้งหมดในรูปแบบ JSON พร้อมสถานะ 200 OK
-        }
 
-        // GET: api/customers/{id}
-        // ดึงข้อมูลลูกค้าตาม id ที่ระบุ
+            // สร้างออบเจกต์ CustomerDTO สำหรับการส่งกลับ
+
+            return Ok(customers); // ส่งข้อมูลที่แปลงแล้วกลับไป
+        }
         [HttpGet("{id}")]
-        public IActionResult GetCustomer(int id)
+        public IActionResult GetCustomerById(int id)
         {
-            var customer = _context.Customers.Find(id);
-            if (customer == null) return NotFound(); // หากไม่พบลูกค้า
-            return Ok(customer); // คืนค่าลูกค้าในรูปแบบ JSON พร้อมสถานะ 200 OK
+            // ค้นหาลูกค้าตาม ID
+            var customer = _context.Customers.FirstOrDefault(c => c.id == id);
+
+            // หากไม่พบลูกค้า
+            if (customer == null)
+            {
+                return NotFound(); // ส่งกลับ 404 Not Found
+            }
+
+            return Ok(customer); // ส่งข้อมูลลูกค้าโดยตรง
         }
+        // POST: api/products
+        // เพิ่มสินค้าใหม่
 
-        // POST: api/customers
-        // เพิ่มข้อมูลลูกค้าใหม่
-        [HttpPost]
-        public IActionResult AddCustomer([FromBody] Customer customer)
-        {
-            _context.Customers.Add(customer); // เพิ่มข้อมูลลูกค้าใหม่เข้าไปในฐานข้อมูล
-            _context.SaveChanges(); // บันทึกข้อมูลลงฐานข้อมูล
-            return CreatedAtAction(nameof(GetCustomer), new { id = customer.CustomerId }, customer); // คืนค่าการสร้างใหม่พร้อมลิงก์ไปยังข้อมูลที่ถูกเพิ่ม
-        }
 
-        // PUT: api/customers/{id}
-        // อัปเดตข้อมูลลูกค้าที่มี id ตามที่ระบุ
-        [HttpPut("{id}")]
-        public IActionResult UpdateCustomer(int id, [FromBody] Customer customer)
-        {
-            var existingCustomer = _context.Customers.Find(id); // ค้นหาลูกค้าตาม id ที่ระบุ
-            if (existingCustomer == null) return NotFound(); // หากไม่พบลูกค้า
-
-            // อัปเดตข้อมูลของลูกค้า
-            existingCustomer.Name = customer.Name;
-            existingCustomer.Email = customer.Email;
-
-            _context.SaveChanges(); // บันทึกการเปลี่ยนแปลงลงฐานข้อมูล
-            return NoContent(); // คืนค่า 204 No Content (ไม่มีเนื้อหากลับไป)
-        }
     }
 }

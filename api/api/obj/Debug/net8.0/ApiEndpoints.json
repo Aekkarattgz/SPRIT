@@ -11,23 +11,7 @@
   },
   {
     "ContainingType": "BelleCroissantAPI.Controllers.CustomersController",
-    "Method": "AddCustomer",
-    "RelativePath": "api/Customers",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "customer",
-        "Type": "BelleCroissantAPI.Model.Customer",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BelleCroissantAPI.Controllers.CustomersController",
-    "Method": "GetCustomer",
+    "Method": "GetCustomerById",
     "RelativePath": "api/Customers/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -36,27 +20,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BelleCroissantAPI.Controllers.CustomersController",
-    "Method": "UpdateCustomer",
-    "RelativePath": "api/Customers/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "customer",
-        "Type": "BelleCroissantAPI.Model.Customer",
         "IsRequired": true
       }
     ],
@@ -213,6 +176,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BelleCroissantAPI.Controllers.XnxxController",
+    "Method": "GetXnxx",
+    "RelativePath": "api/Xnxx",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -1,4 +1,6 @@
-﻿namespace BelleCroissantAPI.Model
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BelleCroissantAPI.Model
 {
     public class Order
     {
