@@ -143,3 +143,14 @@ C:\Users\OS\Desktop\SPRIT\api\api\obj\Debug\net8.0\refint\BelleCroissantAPI.dll
 C:\Users\OS\Desktop\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.pdb
 C:\Users\OS\Desktop\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.genruntimeconfig.cache
 C:\Users\OS\Desktop\SPRIT\api\api\obj\Debug\net8.0\ref\BelleCroissantAPI.dll
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.csproj.AssemblyReference.cache
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.AssemblyInfoInputs.cache
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.AssemblyInfo.cs
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.csproj.CoreCompileInputs.cache
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.sourcelink.json
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.dll
+D:\SPRIT\api\api\obj\Debug\net8.0\refint\BelleCroissantAPI.dll
+D:\SPRIT\api\api\obj\Debug\net8.0\BelleCroissantAPI.pdb
