@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\SPRIT\\api - Copy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{801E09D2-91F5-4997-977A-65D291ABBEA5}|api\\BelleCroissantAPI.csproj|d:\\sprit\\api - copy\\api\\bellecroissantapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{801E09D2-91F5-4997-977A-65D291ABBEA5}|api\\BelleCroissantAPI.csproj|solutionrelative:api\\bellecroissantapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{801E09D2-91F5-4997-977A-65D291ABBEA5}|api\\BelleCroissantAPI.csproj|d:\\sprit\\api - copy\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{801E09D2-91F5-4997-977A-65D291ABBEA5}|api\\BelleCroissantAPI.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "BelleCroissantAPI.csproj",
+              "DocumentMoniker": "D:\\SPRIT\\api - Copy\\api\\BelleCroissantAPI.csproj",
+              "RelativeDocumentMoniker": "api\\BelleCroissantAPI.csproj",
+              "ToolTip": "D:\\SPRIT\\api - Copy\\api\\BelleCroissantAPI.csproj",
+              "RelativeToolTip": "api\\BelleCroissantAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-18T12:51:33.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "20241111134242_InitialCreate.Designer.cs",
               "DocumentMoniker": "D:\\SPRIT\\api - Copy\\api\\Migrations\\20241111134242_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "api\\Migrations\\20241111134242_InitialCreate.Designer.cs",
@@ -38,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SPRIT\\api - Copy\\api\\Program.cs",
               "RelativeDocumentMoniker": "api\\Program.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T12:17:19.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T12:17:19.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\SPRIT\\api - Copy\\api\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "api\\Data\\ApplicationDbContext.cs",

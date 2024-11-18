@@ -31,7 +31,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BelleCroissantAPI",
+              "Title": "BelleCroissantAPI.csproj",
               "DocumentMoniker": "D:\\SPRIT\\api - Copy\\api\\BelleCroissantAPI.csproj",
               "RelativeDocumentMoniker": "api\\BelleCroissantAPI.csproj",
               "ToolTip": "D:\\SPRIT\\api - Copy\\api\\BelleCroissantAPI.csproj",
@@ -51,8 +51,7 @@
               "RelativeToolTip": "api\\Migrations\\20241111134242_InitialCreate.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T12:18:07.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T12:18:07.881Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T12:17:19.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T12:17:19.944Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "api\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T12:16:52.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T12:16:52.442Z"
             }
           ]
         }
